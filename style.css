@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.bi {
+  font-size: 2.4rem;
+}
+
+.bi-chevron-right {
+  font-size: 0.8rem;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.avatar {
+  width: 6rem;
+  margin-bottom: 1.2rem;
+}
+
+.card-icon::before {
+  color: #0d6efd;
+}
